@@ -1,18 +1,5 @@
-[![Build Status](https://travis-ci.org/zabirauf/icsharp.svg)](https://travis-ci.org/zabirauf/icsharp)
-
-# Interactive C# Notebook
-ICSharp is an C# language kernel for [Jupyter.](http://jupyter.org) It allows users
-to use Jupyter's Notebook frontend, except where Jupyter executes python code, ICSharp
-can execute C# code. It is based on Roslyn REPL engine of [scriptcs.](http://scriptcs.net/),
-so all the goodies of scriptcs comes along with it.
-
-This is on top of all of Jupyter's other frontend features like Markdown rendering,
-HTML rendering, saving notebooks for later use and even the ability to view ICSharp
-Notebooks in [Jupyter's NBViewer](http://nbviewer.jupyter.org/).
-
-### Disclaimer
-The development of this language kernel for C# is at it's very early stages.
-This is Alpha. Take with a large pinch of salt :)
+This is not the original project, just a fork. The original project seems to be dead and contains bugs that make the build fail.
+I have just attempted to remove the problomatic dependencies to get it building again.
 
 ### Installation
 
