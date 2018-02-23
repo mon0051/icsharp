@@ -15,7 +15,7 @@ namespace iCSharp.Kernel.Helpers
                 Session = session,
                 MessageId = Guid.NewGuid().ToString(),
                 MessageType = messageType,
-                Version = "4.0"
+                Version = "5.0"
             };
 
             return newHeader;
